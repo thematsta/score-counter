@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.googleapis.com/css2?family=Space+Mono&family=VT323&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+    <div>
+        <h3>HOME</h3>
+        <h1 id='home' class="score">0</h1> <div class="score-buttons-group">
+            <button class="scoreButton" onclick="homeAdd1Score()">+1</button>
+            <button class="scoreButton" onclick="homeAdd2Score()">+2</button>
+            <button class="scoreButton" onclick="homeAdd3Score()">+3</button>
+        </div>
+    </div>
+    <div>
+        <h3>GUEST</h3>
+        <h1 id='guest'class="score">0</h1>
+        <div class="score-buttons-group">
+            <button class="scoreButton" onclick="guestAdd1Score()">+1</button>
+            <button class="scoreButton" onclick="guestAdd2Score()">+2</button>
+            <button class="scoreButton" onclick="guestAdd3Score()">+3</button>
+        </div>
+    </div>
+</div>
+        <button class="newMatch" onclick="newMatch()">New Match?</button>
+        <script src="index.js"></script>
+    </body>
+</html>
